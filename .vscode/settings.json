@@ -1,0 +1,23 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/node_modules": true
+  },
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "editor.tabSize": 2,
+  "terminal.integrated.env.windows": {
+    "UVICORN_RELOAD": "True"
+  },
+  "files.autoSave": "onFocusChange"
+}
