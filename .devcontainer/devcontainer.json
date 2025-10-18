@@ -1,0 +1,10 @@
+{
+  "name": "AlgoNova POC",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter", "algorandfoundation.algokit-vscode"]
+    }
+  }
+}
