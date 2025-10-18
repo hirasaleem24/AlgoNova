@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlgoNova - P2P Payments</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>💸 AlgoNova Wallet</h1>
+    <p>Experience lightning-fast P2P payments on the Algorand blockchain.</p>
+  </header>
+
+  <main>
+    <section id="payment-section">
+      <h2>Send Payment</h2>
+      <form id="payment-form">
+        <label>Recipient Name:</label>
+        <input type="text" id="recipient" placeholder="e.g., Precious N." required />
+
+        <label>Amount (USD):</label>
+        <input type="number" id="amount" placeholder="e.g., 1000" required />
+
+        <label>Currency:</label>
+        <input type="text" id="currency" value="USDC" readonly />
+
+        <button type="submit">Send Payment</button>
+      </form>
+
+      <div id="result"></div>
+    </section>
+
+    <section id="comparison">
+      <h2>Compare Traditional vs Algorand</h2>
+      <button id="compare-btn">View Comparison</button>
+      <pre id="comparison-result"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 AlgoNova — Powered by Algorand TestNet</p>
+  </footer>
+</body>
+</html>
