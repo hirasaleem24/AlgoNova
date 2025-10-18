@@ -1,0 +1,10 @@
+[project]
+name = "AlgoNova"
+description = "Hybrid wallet simulation demonstrating Algorand-based P2P payments and comparison with traditional systems."
+version = "1.0.0"
+
+[network]
+type = "testnet"
+
+[algorand]
+asset_id_usdc = 10458941
