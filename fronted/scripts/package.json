@@ -1,0 +1,16 @@
+{
+  "name": "algonova-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AlgoNova hybrid wallet (Algorand TestNet P2P payments).",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "npx live-server --port=3000"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "algosdk": "^2.7.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
