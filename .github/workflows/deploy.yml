@@ -16,20 +16,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Backend Dependencies
+      - name: Install Dependencies
         run: |
-          cd backend
+          pip install --upgrade pip
           pip install -r requirements.txt
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Frontend Dependencies
-        run: |
-          cd frontend
-          npm install
 
       - name: Run Tests
         run: echo "✅ All tests passed!"
+
+      # Optional: Run the app (for demo/testing purposes)
+      # - name: Run Streamlit App
+      #   run: streamlit run app.py --headless
+
