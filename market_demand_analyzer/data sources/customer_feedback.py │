@@ -1,1 +1,9 @@
 
+def parse_feedback() -> list:
+    """Simulate parsed customer feedback highlights."""
+    feedback = [
+        "More integrations with CRMs",
+        "Add dark mode",
+        "Better mobile app performance"
+    ]
+    return feedback
